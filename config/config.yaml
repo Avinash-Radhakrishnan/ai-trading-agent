@@ -1,0 +1,19 @@
+strategy:
+  name: sma_crossover
+  params:
+    fast_sma: 50
+    slow_sma: 200
+  risk:
+    risk_per_trade: 0.01  # 1% of account
+    risk_reward_ratio: 2  # 1:2
+    max_drawdown: 0.05    # 5% portfolio
+assets:
+  - AAPL
+  - TSLA
+  - SPY
+llm:
+  model: gpt2  # Placeholder, replace with LLaMA or Grok if available
+  max_length: 200
+rag:
+  knowledge_base_path: data/knowledge_base/indicators.txt
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2

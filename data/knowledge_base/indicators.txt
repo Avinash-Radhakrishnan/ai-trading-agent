@@ -1,0 +1,3 @@
+Simple Moving Average (SMA): Averages closing prices over a specified period (e.g., 50 days or 200 days). Used to identify trends. A crossover of a shorter SMA above a longer SMA signals a bullish trend, while the opposite signals a bearish trend.
+Relative Strength Index (RSI): Measures momentum on a scale of 0 to 100. Values above 70 indicate overbought conditions, below 30 indicate oversold conditions. Useful for mean-reversion strategies.
+Bollinger Bands: Consist of a middle SMA and two standard deviation bands. Prices touching the upper band may indicate overbought conditions, and the lower band oversold conditions.
