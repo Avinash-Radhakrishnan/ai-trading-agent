@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+build/
+dist/
+
+# Virtual environment
+trading_env/
+
+# Sensitive files
+config/.env
+
+# Data and logs
+data/*.csv
+data/*.db
+logs/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
