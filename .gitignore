@@ -18,6 +18,7 @@ config/.env
 data/*.csv
 data/*.db
 logs/
+data/faiss_index/
 
 # IDE and OS files
 .vscode/

@@ -1,3 +1,11 @@
-Simple Moving Average (SMA): Averages closing prices over a specified period (e.g., 50 days or 200 days). Used to identify trends. A crossover of a shorter SMA above a longer SMA signals a bullish trend, while the opposite signals a bearish trend.
-Relative Strength Index (RSI): Measures momentum on a scale of 0 to 100. Values above 70 indicate overbought conditions, below 30 indicate oversold conditions. Useful for mean-reversion strategies.
-Bollinger Bands: Consist of a middle SMA and two standard deviation bands. Prices touching the upper band may indicate overbought conditions, and the lower band oversold conditions.
+Simple Moving Average (SMA): A technical indicator that calculates the average of closing prices over a specified period, such as 50 days or 200 days. It smooths price data to identify trends. A bullish signal occurs when a shorter SMA (e.g., 50-day) crosses above a longer SMA (e.g., 200-day), indicating a potential buy. A bearish signal occurs when the shorter SMA crosses below, indicating a potential sell.
+
+Relative Strength Index (RSI): A momentum oscillator ranging from 0 to 100, measuring the speed and change of price movements. RSI above 70 suggests overbought conditions, potentially signaling a sell. RSI below 30 suggests oversold conditions, potentially signaling a buy. It is effective for mean-reversion strategies on stocks like AAPL or TSLA.
+
+Bollinger Bands: Consist of a middle SMA (e.g., 20-day) and two bands set at two standard deviations above and below the SMA. Prices touching the upper band may indicate overbought conditions, while touching the lower band may indicate oversold conditions. Useful for volatility-based strategies on stocks like SPY.
+
+Moving Average Convergence Divergence (MACD): A trend-following indicator showing the relationship between two exponential moving averages (EMAs), typically 12-day and 26-day. The MACD line (12-day EMA minus 26-day EMA) crossing above the signal line (9-day EMA of MACD) is a bullish signal. Crossing below is bearish. Effective for momentum trading.
+
+Stop-Loss and Take-Profit: Risk management techniques. A stop-loss order closes a position at a predetermined loss level (e.g., 1% below entry) to limit downside. A take-profit order closes at a target profit level (e.g., 2% above entry) to lock in gains. Essential for disciplined trading.
+
+Position Sizing: Determining the number of shares to trade based on account size and risk tolerance. For example, risking 1% of a $10,000 account on a trade with a $1 stop-loss means buying 100 shares. Critical for managing risk in volatile stocks like TSLA.

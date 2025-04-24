@@ -1,0 +1,5 @@
+Trend-Following Strategy: Buy when the 50-day SMA crosses above the 200-day SMA and sell when it crosses below. Suitable for trending markets and stocks like SPY. Use a 1% risk per trade and a 1:2 risk-reward ratio. Confirm entries with MACD crossover for higher confidence.
+
+Mean-Reversion Strategy: Buy when RSI is below 30 (oversold) and sell when RSI is above 70 (overbought). Effective for range-bound stocks like AAPL. Combine with Bollinger Bands for confirmation, entering when the price touches the lower band and exiting at the middle SMA.
+
+Momentum Strategy: Buy when the MACD line crosses above the signal line and sell when it crosses below. Use a 12-day and 26-day EMA for the MACD, with a 9-day signal line. Suitable for volatile stocks like TSLA. Set a stop-loss at 1% below entry and a take-profit at 2% above.
